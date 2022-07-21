@@ -8,7 +8,7 @@ def main():
     port = 465
 
     # User info
-    # user_mail = input('digite o email: ')
+    user_mail = input('digite o email: ')
     password = input('digite a senha: ')
 
     # Mail info
