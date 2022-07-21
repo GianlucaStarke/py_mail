@@ -40,6 +40,7 @@ def main():
         server.login(user_mail, password)
         server.sendmail(user_mail, mail['To'], mail.as_string())
 
+
 if __name__ == '__main__':
     try:
         main()
