@@ -19,13 +19,6 @@ def main():
     mail['To'] = 'gianluca.ar@sampaio-sa.com.br'
     mail.attach(
         MIMEText('''\
-            example plain text.
-            
-            example plain text.''',
-        'plain')
-    )
-    mail.attach(
-        MIMEText('''\
             <html>
                 <body>
                     <p>
