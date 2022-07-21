@@ -8,22 +8,22 @@ def main():
     '''
     Enviar e-mail
     '''
-    # user_mail = input('EMAIL: ') # seu email
-    # password = input('SENHA: ') # sua senha de login
-    # receiver_mail = input('DESTINATÁRIO: ') # email do destinatario
-    # html = '''
-    #     <html>
-    #         <body>
-    #             <p>
-    #                 example plain text.
-    #                 <br><br>
-    #                 example plain text.
-    #             </p>
-    #         <body>
-    #     </html>
-    #     '''
+    user_mail = input('EMAIL: ') # seu email
+    password = input('SENHA: ') # sua senha de login
+    receiver_mail = input('DESTINATÁRIO: ') # email do destinatario
+    html = '''
+        <html>
+            <body>
+                <p>
+                    example plain text.
+                    <br><br>
+                    example plain text.
+                </p>
+            <body>
+        </html>
+        '''
 
-    # enviarEmail(user_mail, password, receiver_mail, html)
+    enviarEmail(user_mail, password, receiver_mail, html)
 
     '''
     Ler planilha
