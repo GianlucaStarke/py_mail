@@ -20,7 +20,7 @@ def main():
 
     # enviarEmail(user_mail, password, receiver_mail, html)
 
-    df = pd.read_excel('planilha_ajuste_apuracao.xlsx')
+    df = pd.read_excel('exemplo.xlsx')
 
     print(df)
 
