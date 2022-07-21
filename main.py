@@ -22,9 +22,8 @@ def main():
             example plain text.
             
             example plain text.''',
-            'plain'
-        )
-    ) # plain text
+        'plain')
+    )
     mail.attach(
         MIMEText('''\
             <html>
@@ -37,14 +36,8 @@ def main():
                 <body>
             </html>
             ''',
-            'html'
-        )
-    ) # html
-    # receiver_mail = 'gianluca.ar@sampaio-sa.com.br'
-    # text = '''\
-    # example plain text.
-    
-    # example plain text.'''
+        'html')
+    )
 
     # Context
     context = ssl.create_default_context()
