@@ -3,6 +3,9 @@ from src.enviarEmail import enviarEmail
 
 def main():
 
+    '''
+    Enviar e-mail
+    '''
     # user_mail = input('EMAIL: ') # seu email
     # password = input('SENHA: ') # sua senha de login
     # receiver_mail = input('DESTINATÁRIO: ') # email do destinatario
@@ -19,6 +22,10 @@ def main():
     #     '''
 
     # enviarEmail(user_mail, password, receiver_mail, html)
+
+    '''
+    Ler planilha
+    '''
 
     df = pd.read_excel('exemplo.xlsx')
 
