@@ -31,5 +31,3 @@ if __name__ == '__main__':
         main()
     except Exception as e:
         print('Error: %s' % e)
-    finally:
-        time.sleep(10)
