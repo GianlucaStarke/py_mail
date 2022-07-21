@@ -2,9 +2,9 @@ from src.enviarEmail import enviarEmail
 
 def main():
 
-    user_mail = input('EMAIL: ')
-    password = input('SENHA: ')
-    receiver_mail = input('DESTINATÁRIO: ')
+    user_mail = input('EMAIL: ') # seu email
+    password = input('SENHA: ') # sua senha de login
+    receiver_mail = input('DESTINATÁRIO: ') # email do destinatario
     html = '''
         <html>
             <body>
