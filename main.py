@@ -8,14 +8,14 @@ def main():
     port = 465
 
     # User info
-    user_mail = input('digite o email: ')
-    password = input('digite a senha: ')
+    user_mail = input('EMAIL: ')
+    password = input('SENHA: ')
 
     # Mail info
     mail = MIMEMultipart('alternative')
     mail['Subject'] = 'Teste'
     mail['From'] = user_mail
-    mail['To'] = 'gianluca.ar@sampaio-sa.com.br'
+    mail['To'] = input('DESTINATÁRIO: ')
     mail.attach(
         MIMEText('''\
             <html>
