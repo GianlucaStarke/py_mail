@@ -1,5 +1,4 @@
 import pandas as pd
-import time
 from src.enviarEmail import enviarEmail
 
 def main():
